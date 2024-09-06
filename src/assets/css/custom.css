@@ -1,0 +1,83 @@
+/* Header */
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+.Epilogue{
+    font-family: "Epilogue", sans-serif;
+}
+.lato{
+    font-family: "Lato", sans-serif;
+}
+.customlist li {
+    position: relative;
+    padding-left: 25px;
+}
+.customlist {
+    line-height: 40px;
+}
+.customlist li:before {
+    content: "";
+    background: #13abc1;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.flipx {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.mainnavigation > li > a {
+    display: block;
+    line-height: 60px;
+    border-right: 1px solid #0000000d;
+    padding: 0 15px;
+}
+.courselists .courseitem {
+    width: calc(100% / 3 - 34px);
+}
+.filter .active {
+    background: linear-gradient(91.25deg, #bce6e9 1.07%, #edefc1 99.46%);
+    border: 1px solid transparent;
+}
+.footer .mainnavigation {
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer .mainnavigation > li > a {
+    line-height: 40px;
+    border: none;
+}
+
+/* Faq */
+.ui.accordion .content {
+    display: none;
+  }
+  
+  .ui.accordion .content.active {
+    display: block;
+  }
+  .faq .title.active {
+    color: #13abc1;
+}
+.accordion .faq:last-child {
+    border: none;
+}
+/* Faq end */
+
+.menu-main {
+    display: flex;
+    gap: 30px;
+    text-align: left;
+}
+.menu-main > li {
+    position: relative;
+}
+.menu-main ul.sub-menu {
+    position: absolute;
+}
